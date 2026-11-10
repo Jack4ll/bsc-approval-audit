@@ -1,0 +1,7 @@
+# Example pairs file for audit.py: TOKEN,SPENDER,KIND
+# KIND is erc20 (a token allowance) or erc721 (an NFT operator approval).
+# Lines starting with # are comments. Blank lines are ignored.
+#
+# The pair below is real: the Pokechain NFT collection and its market.
+# A wallet that listed a Pokechain card there has this approval live.
+0x4EF929aF00cB93993c3D01834C4DA79200d31e32,0x3399E3AC0D6aA973a00D47Ff52072906841ee1a7,erc721
